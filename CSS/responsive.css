@@ -1,0 +1,154 @@
+/* XL Device :1200px. */
+/* @media (min-width: 1200px) and (max-width: 1500px) {
+} */
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    margin-left: 11%;
+    gap: 1em;
+}
+}
+@media (max-width: 991px) {
+
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.row.header-info-row {
+    padding: 1em 0;
+}
+header {
+  background-position: center;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  gap: 0em;
+  margin: 0;
+}
+.nav-button {
+  text-align: center;
+}
+.row.row-course {
+  padding: 5em 0em;
+  gap: 0;
+}
+.row.row-popular-course {
+  padding: 2em 0;
+}
+.card-section {
+  padding: 5px 0 5px 8px;
+}
+p.card-item {
+  font-size: 10px;
+}
+.row.row-contact {
+  padding: 5em 0;
+}
+.row.contact-form-row {
+  padding: 0 6em;
+}
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+.row.header-info-row {
+    padding: 1em 0;
+    background-position: center;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  gap: 0;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  gap: 0em;
+  margin: 0;
+}
+.nav-button {
+  text-align: center;
+}
+.row.row-course {
+  padding: 3em 0em;
+  text-align: center;
+}
+.row.row-course.client-row {
+  flex-direction: column;
+}
+.row.row-popular-course {
+  padding: 2em 0;
+  gap: 1em;
+}
+.row.row-contact {
+  padding: 2em 0;
+}
+.row.contact-form-row {
+  padding: 2em 0;
+}
+}
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+.row.header-info-row {
+  padding: 1em 0;
+  text-align: center;
+}
+h1.heding-top {
+  font-size: 36px;
+  line-height: 50px;
+}
+h4.title-top {
+  font-size: 16px;
+  line-height: 25px;
+}
+header {
+  background-size: cover;
+  background-position: center;
+}
+.nav-button {
+  display: none;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  gap: 0;
+}
+.row.row-course {
+  padding: 2em 0em;
+}
+p.para-course {
+  font-size: 12px;
+  line-height: 19px;
+  text-align: justify;
+}
+h2.course-title {
+  font-size: 28px;
+  line-height: 25px;
+}
+.row.row-course.client-row {
+  flex-direction: column;
+}
+.row.row-popular-course {
+  padding: 2em 0;
+}
+.row.row-popular-course {
+  gap: 1em;
+}
+.row.row-contact {
+  padding: 2em 0;
+}
+.row.contact-form-row {
+  padding: 1em 0;
+}
+input#exampleFormControlInput1 {
+  width: 100%;
+}
+.col-lg-12.col-md-12.col-sm-12.col-12.col-form {
+  flex-direction: column;
+  gap: 1em;
+  padding: 0;
+}
+a.link-button.bottom-button {
+  border-radius: 5px;
+}
+.row.ft-bar-row {
+  text-align: center;
+  gap: 1em;
+  padding: 2em 0;
+}
+}
