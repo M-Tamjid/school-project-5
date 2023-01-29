@@ -21,6 +21,9 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
 header {
   background-position: center;
 }
+ .nav-button {
+    display: none;
+}
 ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
   gap: 0em;
   margin: 0;
